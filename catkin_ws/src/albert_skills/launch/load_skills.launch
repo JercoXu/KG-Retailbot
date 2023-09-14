@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <arg name="move_namespace" default="move_base_sever" />
+  <!--  <rosparam command="load" file="$(find albert_skills)/config/pick_server_fabrics.yaml" ns="$(arg pick_namespace)" />-->
+  <node pkg="albert_skills" name="$(arg move_namespace)" type="move_base_sever.py" output="screen" />
+
+  <arg name="pick_namespace" default="pick_server_fabrics" />
+  <!--  <rosparam command="load" file="$(find albert_skills)/config/pick_server_fabrics.yaml" ns="$(arg pick_namespace)" />-->
+  <node pkg="albert_skills" name="$(arg pick_namespace)" type="pick_server_fabrics.py" output="screen" />
+
+  <arg name="place_namespace" default="place_server_fabrics" />
+  <!-- TODO: parameterize place action -->
+  <!-- <rosparam command="load" file="$(find albert_skills)/config/place_server_fabrics.yaml" ns="$(arg place_namespace)" /> -->
+  <node pkg="albert_skills" name="$(arg place_namespace)" type="place_server_fabrics.py" output="screen" />
+
+  <arg name="look_for_item_namespace" default="look_for_item_server" />
+  <!-- TODO: parameterize look_for_item action -->
+  <!-- <rosparam command="load" file="$(find albert_skills)/config/look_for_item.yaml" ns="$(arg look_for_item_namespace)" /> -->
+  <node pkg="albert_skills" name="$(arg look_for_item_namespace)" type="look_for_item_server_fabrics.py" output="screen" />
+</launch>

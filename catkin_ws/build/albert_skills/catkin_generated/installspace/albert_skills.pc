@@ -1,0 +1,8 @@
+prefix=/home/jerco/Desktop/thesis/catkin_ws/install
+
+Name: albert_skills
+Description: Description of albert_skills
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

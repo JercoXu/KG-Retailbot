@@ -1,0 +1,10 @@
+(cl:defpackage albert_decision_making-srv
+  (:use )
+  (:export
+   "SYMBOLICPERCEPTION"
+   "<SYMBOLICPERCEPTION-REQUEST>"
+   "SYMBOLICPERCEPTION-REQUEST"
+   "<SYMBOLICPERCEPTION-RESPONSE>"
+   "SYMBOLICPERCEPTION-RESPONSE"
+  ))
+

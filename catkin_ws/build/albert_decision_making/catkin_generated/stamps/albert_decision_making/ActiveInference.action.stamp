@@ -1,0 +1,5 @@
+string state
+string product_id
+---
+bool res
+---

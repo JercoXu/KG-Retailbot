@@ -1,0 +1,2 @@
+set(albert_decision_making_MESSAGE_FILES "msg/ActiveInferenceAction.msg;msg/ActiveInferenceActionGoal.msg;msg/ActiveInferenceActionResult.msg;msg/ActiveInferenceActionFeedback.msg;msg/ActiveInferenceGoal.msg;msg/ActiveInferenceResult.msg;msg/ActiveInferenceFeedback.msg")
+set(albert_decision_making_SERVICE_FILES "srv/SymbolicPerception.srv")

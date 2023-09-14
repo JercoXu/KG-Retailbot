@@ -1,0 +1,8 @@
+prefix=/home/jerco/Desktop/thesis/catkin_ws/devel
+
+Name: albert_decision_making
+Description: Description of albert_decision_making
+Version: 0.0.0
+Cflags: -I/home/jerco/Desktop/thesis/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp actionlib

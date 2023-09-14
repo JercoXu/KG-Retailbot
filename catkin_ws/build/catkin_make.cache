@@ -1,0 +1,2 @@
+albert_decision_making:albert_skills
+-DCATKIN_DEVEL_PREFIX=/home/jerco/Desktop/thesis/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jerco/Desktop/thesis/catkin_ws/install -G Unix Makefiles

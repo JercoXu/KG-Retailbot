@@ -1,0 +1,8 @@
+#goal definition
+#int32 product_id
+string goal_id
+---
+#result definition
+bool success
+---
+#feedback
