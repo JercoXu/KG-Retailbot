@@ -1,0 +1,462 @@
+﻿[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "agentRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#agentRobot"
+      },
+      "elementId": "0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "restrictionType": "SOME",
+        "name": "agent",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#agent"
+      },
+      "elementId": "1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "robotPart",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#robotPart"
+      },
+      "elementId": "2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "part",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#part"
+      },
+      "elementId": "3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "designAttribute",
+        "uri": "http://purl.org/ieee1872-owl/corax#designAttribute"
+      },
+      "elementId": "4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "property",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#property"
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "property",
+        "comment": "This property should be defined in sumo-cora. Use http://purl.org/ieee1872-owl/sumo-cora#property instead.",
+        "uri": "http://purl.org/ieee1872-owl/corax#property"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "automatedRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#automatedRobot"
+      },
+      "elementId": "7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "fullyautonomousRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#fullyautonomousRobot"
+      },
+      "elementId": "8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "remotecontrolledRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#remotecontrolledRobot"
+      },
+      "elementId": "9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "teleoperatedRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#teleoperatedRobot"
+      },
+      "elementId": "10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "semiautonomousRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#semiautonomousRobot"
+      },
+      "elementId": "11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "orientedAt",
+        "uri": "http://purl.org/ieee1872-owl/pos#orientedAt"
+      },
+      "elementId": "12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "measure",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#measure"
+      },
+      "elementId": "13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "positionedAt",
+        "uri": "http://purl.org/ieee1872-owl/pos#positionedAt"
+      },
+      "elementId": "14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "pose",
+        "uri": "http://purl.org/ieee1872-owl/pos#pose"
+      },
+      "elementId": "15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "robotActuatingPart",
+        "uri": "http://purl.org/ieee1872-owl/rparts#robotActuatingPart"
+      },
+      "elementId": "16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "robotProcessingPart",
+        "uri": "http://purl.org/ieee1872-owl/rparts#robotProcessingPart"
+      },
+      "elementId": "17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "robotSensingPart",
+        "comment": "In IEEE 1872-2015, the domain of class is MeasuringDevice, which is not present in SUMO 1.52. That is probably a mistake in IEEE 1872-2015.",
+        "uri": "http://purl.org/ieee1872-owl/rparts#robotSensingPart"
+      },
+      "elementId": "18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "robotCommunicatingPart",
+        "uri": "http://purl.org/ieee1872-owl/rparts#robotCommunicatingPart"
+      },
+      "elementId": "19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "restrictionType": "QUALIFIEDCARDINALITY",
+        "name": "_domain3",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_domain3",
+        "cardinalityVal": 1
+      },
+      "elementId": "20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "_domain",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_domain"
+      },
+      "elementId": "21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "restrictionType": "SOME",
+        "name": "result",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#result"
+      },
+      "elementId": "22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "patient",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#patient"
+      },
+      "elementId": "23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "restrictionType": "QUALIFIEDCARDINALITY",
+        "name": "_domain4",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_domain4",
+        "cardinalityVal": 1
+      },
+      "elementId": "24"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "causes",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#causes"
+      },
+      "elementId": "25"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Class"
+      ],
+      "properties": {
+        "name": "topObjectProperty",
+        "uri": "http://www.w3.org/2002/07/owl#topObjectProperty"
+      },
+      "elementId": "26"
+    }
+  },
+  {
+    "n": {
+      "identity": 27,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "restrictionType": "QUALIFIEDCARDINALITY",
+        "name": "_domain1",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_domain1",
+        "cardinalityVal": 1
+      },
+      "elementId": "27"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "member",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#member"
+      },
+      "elementId": "28"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "restrictionType": "QUALIFIEDCARDINALITY",
+        "name": "_domain2",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_domain2",
+        "cardinalityVal": 1
+      },
+      "elementId": "29"
+    }
+  },
+  {
+    "n": {
+      "identity": 30,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "propCharacteristics": "Transitive",
+        "name": "located",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#located"
+      },
+      "elementId": "30"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Class",
+        "Relationship"
+      ],
+      "properties": {
+        "name": "partlyLocated",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#partlyLocated"
+      },
+      "elementId": "31"
+    }
+  }
+]

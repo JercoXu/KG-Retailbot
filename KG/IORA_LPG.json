@@ -1,0 +1,512 @@
+﻿[
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Process",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Process"
+      },
+      "elementId": "2"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "CORA"
+      ],
+      "properties": {
+        "name": "RobotInterface",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#RobotInterface"
+      },
+      "elementId": "4"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "CORA"
+      ],
+      "properties": {
+        "name": "RoboticSystem",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#RoboticSystem"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Agent",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Agent"
+      },
+      "elementId": "7"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "CORA"
+      ],
+      "properties": {
+        "name": "Robot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#Robot"
+      },
+      "elementId": "11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "CORA"
+      ],
+      "properties": {
+        "name": "RoboticEnvironment",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#RoboticEnvironment"
+      },
+      "elementId": "12"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Device",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Device"
+      },
+      "elementId": "15"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "CORAX"
+      ],
+      "properties": {
+        "name": "PhysicalEnvironment",
+        "uri": "http://purl.org/ieee1872-owl/corax#PhysicalEnvironment"
+      },
+      "elementId": "17"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Attribute",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Attribute"
+      },
+      "elementId": "19"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Proposition",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Proposition"
+      },
+      "elementId": "22"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "CORAX"
+      ],
+      "properties": {
+        "name": "RobotMotion",
+        "uri": "http://purl.org/ieee1872-owl/corax#RobotMotion"
+      },
+      "elementId": "28"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Abstract",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Abstract"
+      },
+      "elementId": "34"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "CORAX"
+      ],
+      "properties": {
+        "name": "Interaction",
+        "uri": "http://purl.org/ieee1872-owl/corax#Interaction"
+      },
+      "elementId": "35"
+    }
+  },
+  {
+    "n": {
+      "identity": 37,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "PhysicalQuantity",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#PhysicalQuantity"
+      },
+      "elementId": "37"
+    }
+  },
+  {
+    "n": {
+      "identity": 39,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Object",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Object"
+      },
+      "elementId": "39"
+    }
+  },
+  {
+    "n": {
+      "identity": 40,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Entity",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Entity"
+      },
+      "elementId": "40"
+    }
+  },
+  {
+    "n": {
+      "identity": 41,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Motion",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Motion"
+      },
+      "elementId": "41"
+    }
+  },
+  {
+    "n": {
+      "identity": 52,
+      "labels": [
+        "POS"
+      ],
+      "properties": {
+        "name": "PositionPoint",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionPoint"
+      },
+      "elementId": "52"
+    }
+  },
+  {
+    "n": {
+      "identity": 54,
+      "labels": [
+        "POS"
+      ],
+      "properties": {
+        "name": "PositionCoordinateSystem",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionCoordinateSystem"
+      },
+      "elementId": "54"
+    }
+  },
+  {
+    "n": {
+      "identity": 57,
+      "labels": [
+        "POS"
+      ],
+      "properties": {
+        "name": "PositionMeasure",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionMeasure"
+      },
+      "elementId": "57"
+    }
+  },
+  {
+    "n": {
+      "identity": 63,
+      "labels": [
+        "POS"
+      ],
+      "properties": {
+        "name": "QuantitativePose",
+        "uri": "http://purl.org/ieee1872-owl/pos#QuantitativePose"
+      },
+      "elementId": "63"
+    }
+  },
+  {
+    "n": {
+      "identity": 68,
+      "labels": [
+        "POS"
+      ],
+      "properties": {
+        "name": "OrientationCoordinateSystem",
+        "uri": "http://purl.org/ieee1872-owl/pos#OrientationCoordinateSystem"
+      },
+      "elementId": "68"
+    }
+  },
+  {
+    "n": {
+      "identity": 71,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Physical",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Physical"
+      },
+      "elementId": "71"
+    }
+  },
+  {
+    "n": {
+      "identity": 72,
+      "labels": [
+        "POS"
+      ],
+      "properties": {
+        "name": "OrientationValue",
+        "uri": "http://purl.org/ieee1872-owl/pos#OrientationValue"
+      },
+      "elementId": "72"
+    }
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "POS"
+      ],
+      "properties": {
+        "name": "PositionRegion",
+        "comment": "Reggarding the reflexivity of the overlapsPosition. reflexivity seems to be different in SUMO and OWL. In OWL, a relation is reflexive over ALL the domain, which restricts the use of domain/range restrictions with any disjoint class. In SUMO, a relation is reflexive only to individuals in which it has been instantiated (according to the axioms defining ReflexiveRelation). The intended meaning of the reflexivity in overlapsPosition is that any PositionRegion overlaps with itself. To enable that we added the axiom \"overlapsPosition Self\".",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionRegion"
+      },
+      "elementId": "80"
+    }
+  },
+  {
+    "n": {
+      "identity": 86,
+      "labels": [
+        "POS"
+      ],
+      "properties": {
+        "name": "OrientationMeasure",
+        "uri": "http://purl.org/ieee1872-owl/pos#OrientationMeasure"
+      },
+      "elementId": "86"
+    }
+  },
+  {
+    "n": {
+      "identity": 98,
+      "labels": [
+        "POS"
+      ],
+      "properties": {
+        "name": "PoseMeasure",
+        "uri": "http://purl.org/ieee1872-owl/pos#PoseMeasure"
+      },
+      "elementId": "98"
+    }
+  },
+  {
+    "n": {
+      "identity": 111,
+      "labels": [
+        "POS"
+      ],
+      "properties": {
+        "name": "OrientationRegion",
+        "uri": "http://purl.org/ieee1872-owl/pos#OrientationRegion"
+      },
+      "elementId": "111"
+    }
+  },
+  {
+    "n": {
+      "identity": 129,
+      "labels": [
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "name": "Quantity",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Quantity"
+      },
+      "elementId": "129"
+    }
+  },
+  {
+    "n": {
+      "identity": 144,
+      "labels": [
+        "TO"
+      ],
+      "properties": {
+        "name": "Robot Behavior"
+      },
+      "elementId": "144"
+    }
+  },
+  {
+    "n": {
+      "identity": 145,
+      "labels": [
+        "TO"
+      ],
+      "properties": {
+        "name": "Task"
+      },
+      "elementId": "145"
+    }
+  },
+  {
+    "n": {
+      "identity": 146,
+      "labels": [
+        "TO"
+      ],
+      "properties": {
+        "name": "Constraint"
+      },
+      "elementId": "146"
+    }
+  },
+  {
+    "n": {
+      "identity": 147,
+      "labels": [
+        "TO"
+      ],
+      "properties": {
+        "name": "Goal"
+      },
+      "elementId": "147"
+    }
+  },
+  {
+    "n": {
+      "identity": 148,
+      "labels": [
+        "TO"
+      ],
+      "properties": {
+        "name": "Subtask"
+      },
+      "elementId": "148"
+    }
+  },
+  {
+    "n": {
+      "identity": 149,
+      "labels": [
+        "TO"
+      ],
+      "properties": {
+        "name": "Platform"
+      },
+      "elementId": "149"
+    }
+  },
+  {
+    "n": {
+      "identity": 150,
+      "labels": [
+        "TO"
+      ],
+      "properties": {
+        "name": "Capability"
+      },
+      "elementId": "150"
+    }
+  },
+  {
+    "n": {
+      "identity": 151,
+      "labels": [
+        "TO"
+      ],
+      "properties": {
+        "name": "Evaluation"
+      },
+      "elementId": "151"
+    }
+  },
+  {
+    "n": {
+      "identity": 152,
+      "labels": [
+        "TO"
+      ],
+      "properties": {
+        "name": "Performance Metric"
+      },
+      "elementId": "152"
+    }
+  },
+  {
+    "n": {
+      "identity": 153,
+      "labels": [
+        "ERAS"
+      ],
+      "properties": {
+        "name": "Agent Plan"
+      },
+      "elementId": "153"
+    }
+  },
+  {
+    "n": {
+      "identity": 154,
+      "labels": [
+        "ERAS"
+      ],
+      "properties": {
+        "name": "Plan Action"
+      },
+      "elementId": "154"
+    }
+  }
+]

@@ -1,0 +1,2114 @@
+﻿[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "_GraphConfig"
+      ],
+      "properties": {
+        "_classLabel": "Class",
+        "_handleRDFTypes": 0,
+        "_subClassOfRel": "SCO",
+        "_handleMultival": 0,
+        "_objectPropertyLabel": "Relationship",
+        "_rangeRel": "RANGE",
+        "_domainRel": "DOMAIN",
+        "_keepLangTag": false,
+        "_keepCustomDataTypes": false,
+        "_handleVocabUris": 0,
+        "_applyNeo4jNaming": false,
+        "_dataTypePropertyLabel": "Property",
+        "_subPropertyOfRel": "SPO"
+      },
+      "elementId": "0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "_NsPrefDef"
+      ],
+      "properties": {
+        "n4sch": "neo4j://graph.schema#"
+      },
+      "elementId": "1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Process",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Process"
+      },
+      "elementId": "2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "RobotGroup",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#RobotGroup"
+      },
+      "elementId": "3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "RobotInterface",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#RobotInterface"
+      },
+      "elementId": "4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "robotPart",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#robotPart"
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "RoboticSystem",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#RoboticSystem"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Agent",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Agent"
+      },
+      "elementId": "7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "agent",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#agent"
+      },
+      "elementId": "8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "agentRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#agentRobot"
+      },
+      "elementId": "9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "part",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#part"
+      },
+      "elementId": "10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Robot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#Robot"
+      },
+      "elementId": "11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "RoboticEnvironment",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#RoboticEnvironment"
+      },
+      "elementId": "12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "ArtificialSystem",
+        "uri": "http://purl.org/ieee1872-owl/corax#ArtificialSystem"
+      },
+      "elementId": "13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "support",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#support"
+      },
+      "elementId": "14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Device",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Device"
+      },
+      "elementId": "15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Group",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Group"
+      },
+      "elementId": "16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "PhysicalEnvironment",
+        "uri": "http://purl.org/ieee1872-owl/corax#PhysicalEnvironment"
+      },
+      "elementId": "17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "property",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#property"
+      },
+      "elementId": "18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Attribute",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Attribute"
+      },
+      "elementId": "19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "dependsOn",
+        "uri": "http://purl.org/ieee1872-owl/corax#dependsOn"
+      },
+      "elementId": "20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "ProcessingDevice",
+        "uri": "http://purl.org/ieee1872-owl/corax#ProcessingDevice"
+      },
+      "elementId": "21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Proposition",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Proposition"
+      },
+      "elementId": "22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "interactsWith",
+        "n4sch__propCharacteristics": "Symmetric",
+        "uri": "http://purl.org/ieee1872-owl/corax#interactsWith"
+      },
+      "elementId": "23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__comment": "In IEEE 1872-2015, this class is subclass of ContentBearingProcess, which is not present in SUMO 1.52. That is probably a mistake in IEEE 1872-2015.",
+        "n4sch__name": "RobotRobotCommunication",
+        "uri": "http://purl.org/ieee1872-owl/corax#RobotRobotCommunication"
+      },
+      "elementId": "24"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__comment": "In IEEE 1872-2015, this class is subclass of ContentBearingProcess, which is not present in SUMO 1.52. That is probably a mistake in IEEE 1872-2015.",
+        "n4sch__name": "HumanRobotCommunication",
+        "uri": "http://purl.org/ieee1872-owl/corax#HumanRobotCommunication"
+      },
+      "elementId": "25"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "idealizes",
+        "uri": "http://purl.org/ieee1872-owl/corax#idealizes"
+      },
+      "elementId": "26"
+    }
+  },
+  {
+    "n": {
+      "identity": 27,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Design",
+        "uri": "http://purl.org/ieee1872-owl/corax#Design"
+      },
+      "elementId": "27"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "RobotMotion",
+        "uri": "http://purl.org/ieee1872-owl/corax#RobotMotion"
+      },
+      "elementId": "28"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "designAttribute",
+        "uri": "http://purl.org/ieee1872-owl/corax#designAttribute"
+      },
+      "elementId": "29"
+    }
+  },
+  {
+    "n": {
+      "identity": 30,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "DesignObject",
+        "uri": "http://purl.org/ieee1872-owl/corax#DesignObject"
+      },
+      "elementId": "30"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__comment": "This concept is from in SUMO Mid-level.",
+        "n4sch__name": "ElectricDevice",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#ElectricDevice"
+      },
+      "elementId": "31"
+    }
+  },
+  {
+    "n": {
+      "identity": 32,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "designMeasure",
+        "uri": "http://purl.org/ieee1872-owl/corax#designMeasure"
+      },
+      "elementId": "32"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "about",
+        "uri": "http://purl.org/ieee1872-owl/corax#about"
+      },
+      "elementId": "33"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Abstract",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Abstract"
+      },
+      "elementId": "34"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Interaction",
+        "uri": "http://purl.org/ieee1872-owl/corax#Interaction"
+      },
+      "elementId": "35"
+    }
+  },
+  {
+    "n": {
+      "identity": 36,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__comment": "This property should be defined in sumo-cora. Use http://purl.org/ieee1872-owl/sumo-cora#property instead.",
+        "n4sch__name": "property",
+        "uri": "http://purl.org/ieee1872-owl/corax#property"
+      },
+      "elementId": "36"
+    }
+  },
+  {
+    "n": {
+      "identity": 37,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "PhysicalQuantity",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#PhysicalQuantity"
+      },
+      "elementId": "37"
+    }
+  },
+  {
+    "n": {
+      "identity": 38,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Artifact",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Artifact"
+      },
+      "elementId": "38"
+    }
+  },
+  {
+    "n": {
+      "identity": 39,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Object",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Object"
+      },
+      "elementId": "39"
+    }
+  },
+  {
+    "n": {
+      "identity": 40,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Entity",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Entity"
+      },
+      "elementId": "40"
+    }
+  },
+  {
+    "n": {
+      "identity": 41,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Motion",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Motion"
+      },
+      "elementId": "41"
+    }
+  },
+  {
+    "n": {
+      "identity": 42,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "semiautonomousRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#semiautonomousRobot"
+      },
+      "elementId": "42"
+    }
+  },
+  {
+    "n": {
+      "identity": 43,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "remotecontrolledRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#remotecontrolledRobot"
+      },
+      "elementId": "43"
+    }
+  },
+  {
+    "n": {
+      "identity": 44,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "teleoperatedRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#teleoperatedRobot"
+      },
+      "elementId": "44"
+    }
+  },
+  {
+    "n": {
+      "identity": 45,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "equippedWith",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#equippedWith"
+      },
+      "elementId": "45"
+    }
+  },
+  {
+    "n": {
+      "identity": 46,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "CollectiveRoboticSystem",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#CollectiveRoboticSystem"
+      },
+      "elementId": "46"
+    }
+  },
+  {
+    "n": {
+      "identity": 47,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "SingleRoboticSystem",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#SingleRoboticSystem"
+      },
+      "elementId": "47"
+    }
+  },
+  {
+    "n": {
+      "identity": 48,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "fullyautonomousRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#fullyautonomousRobot"
+      },
+      "elementId": "48"
+    }
+  },
+  {
+    "n": {
+      "identity": 49,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "automatedRobot",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#automatedRobot"
+      },
+      "elementId": "49"
+    }
+  },
+  {
+    "n": {
+      "identity": 50,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "result",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#result"
+      },
+      "elementId": "50"
+    }
+  },
+  {
+    "n": {
+      "identity": 51,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "IntentionalProcess",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#IntentionalProcess"
+      },
+      "elementId": "51"
+    }
+  },
+  {
+    "n": {
+      "identity": 52,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "PositionPoint",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionPoint"
+      },
+      "elementId": "52"
+    }
+  },
+  {
+    "n": {
+      "identity": 53,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "located",
+        "n4sch__propCharacteristics": "Transitive",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#located"
+      },
+      "elementId": "53"
+    }
+  },
+  {
+    "n": {
+      "identity": 54,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "PositionCoordinateSystem",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionCoordinateSystem"
+      },
+      "elementId": "54"
+    }
+  },
+  {
+    "n": {
+      "identity": 55,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "_domain1",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_domain1"
+      },
+      "elementId": "55"
+    }
+  },
+  {
+    "n": {
+      "identity": 56,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Making",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Making"
+      },
+      "elementId": "56"
+    }
+  },
+  {
+    "n": {
+      "identity": 57,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "PositionMeasure",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionMeasure"
+      },
+      "elementId": "57"
+    }
+  },
+  {
+    "n": {
+      "identity": 58,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "refOCS",
+        "n4sch__propCharacteristics": "Functional",
+        "uri": "http://purl.org/ieee1872-owl/pos#refOCS"
+      },
+      "elementId": "58"
+    }
+  },
+  {
+    "n": {
+      "identity": 59,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "refPCS",
+        "n4sch__propCharacteristics": "Functional",
+        "uri": "http://purl.org/ieee1872-owl/pos#refPCS"
+      },
+      "elementId": "59"
+    }
+  },
+  {
+    "n": {
+      "identity": 60,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_PositionTransformationFunction",
+        "uri": "http://purl.org/ieee1872-owl/pos#_PositionTransformationFunction"
+      },
+      "elementId": "60"
+    }
+  },
+  {
+    "n": {
+      "identity": 61,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "CognitiveAgent",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#CognitiveAgent"
+      },
+      "elementId": "61"
+    }
+  },
+  {
+    "n": {
+      "identity": 62,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "inPCS",
+        "n4sch__propCharacteristics": "Functional",
+        "uri": "http://purl.org/ieee1872-owl/pos#inPCS"
+      },
+      "elementId": "62"
+    }
+  },
+  {
+    "n": {
+      "identity": 63,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "QuantitativePose",
+        "uri": "http://purl.org/ieee1872-owl/pos#QuantitativePose"
+      },
+      "elementId": "63"
+    }
+  },
+  {
+    "n": {
+      "identity": 64,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "inOCS",
+        "n4sch__propCharacteristics": "Functional",
+        "uri": "http://purl.org/ieee1872-owl/pos#inOCS"
+      },
+      "elementId": "64"
+    }
+  },
+  {
+    "n": {
+      "identity": 65,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_QuantPoseTransformationFunction",
+        "uri": "http://purl.org/ieee1872-owl/pos#_QuantPoseTransformationFunction"
+      },
+      "elementId": "65"
+    }
+  },
+  {
+    "n": {
+      "identity": 66,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_OrientationTransformationFunction",
+        "uri": "http://purl.org/ieee1872-owl/pos#_OrientationTransformationFunction"
+      },
+      "elementId": "66"
+    }
+  },
+  {
+    "n": {
+      "identity": 67,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Creation",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Creation"
+      },
+      "elementId": "67"
+    }
+  },
+  {
+    "n": {
+      "identity": 68,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "OrientationCoordinateSystem",
+        "uri": "http://purl.org/ieee1872-owl/pos#OrientationCoordinateSystem"
+      },
+      "elementId": "68"
+    }
+  },
+  {
+    "n": {
+      "identity": 69,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Collection",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Collection"
+      },
+      "elementId": "69"
+    }
+  },
+  {
+    "n": {
+      "identity": 70,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "time",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#time"
+      },
+      "elementId": "70"
+    }
+  },
+  {
+    "n": {
+      "identity": 71,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Physical",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Physical"
+      },
+      "elementId": "71"
+    }
+  },
+  {
+    "n": {
+      "identity": 72,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "OrientationValue",
+        "uri": "http://purl.org/ieee1872-owl/pos#OrientationValue"
+      },
+      "elementId": "72"
+    }
+  },
+  {
+    "n": {
+      "identity": 73,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "_range",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_range"
+      },
+      "elementId": "73"
+    }
+  },
+  {
+    "n": {
+      "identity": 74,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "UnaryFunction",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#UnaryFunction"
+      },
+      "elementId": "74"
+    }
+  },
+  {
+    "n": {
+      "identity": 75,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "inPR",
+        "uri": "http://purl.org/ieee1872-owl/pos#inPR"
+      },
+      "elementId": "75"
+    }
+  },
+  {
+    "n": {
+      "identity": 76,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "positionedAt",
+        "uri": "http://purl.org/ieee1872-owl/pos#positionedAt"
+      },
+      "elementId": "76"
+    }
+  },
+  {
+    "n": {
+      "identity": 77,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "OrientationSpatialOperator",
+        "uri": "http://purl.org/ieee1872-owl/pos#OrientationSpatialOperator"
+      },
+      "elementId": "77"
+    }
+  },
+  {
+    "n": {
+      "identity": 78,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_UnaryFunction",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_UnaryFunction"
+      },
+      "elementId": "78"
+    }
+  },
+  {
+    "n": {
+      "identity": 79,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "poseOrientation",
+        "uri": "http://purl.org/ieee1872-owl/pos#poseOrientation"
+      },
+      "elementId": "79"
+    }
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__comment": "Reggarding the reflexivity of the overlapsPosition. reflexivity seems to be different in SUMO and OWL. In OWL, a relation is reflexive over ALL the domain, which restricts the use of domain/range restrictions with any disjoint class. In SUMO, a relation is reflexive only to individuals in which it has been instantiated (according to the axioms defining ReflexiveRelation). The intended meaning of the reflexivity in overlapsPosition is that any PositionRegion overlaps with itself. To enable that we added the axiom \"overlapsPosition Self\".",
+        "n4sch__name": "PositionRegion",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionRegion"
+      },
+      "elementId": "80"
+    }
+  },
+  {
+    "n": {
+      "identity": 81,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "PositionTransformationFunction",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionTransformationFunction"
+      },
+      "elementId": "81"
+    }
+  },
+  {
+    "n": {
+      "identity": 82,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "pose",
+        "uri": "http://purl.org/ieee1872-owl/pos#pose"
+      },
+      "elementId": "82"
+    }
+  },
+  {
+    "n": {
+      "identity": 83,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__comment": "In IEEE 1872-2015, this relation has domains in the concept \"CoordinateSystem\", which does not exist elsewhere in the standard. This must be a mistake. We replaced for PositionCoordinateSystem",
+        "n4sch__name": "parentPCS",
+        "n4sch__propCharacteristics": "Transitive",
+        "uri": "http://purl.org/ieee1872-owl/pos#parentPCS"
+      },
+      "elementId": "83"
+    }
+  },
+  {
+    "n": {
+      "identity": 84,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "_domain3",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_domain3"
+      },
+      "elementId": "84"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "List",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#List"
+      },
+      "elementId": "85"
+    }
+  },
+  {
+    "n": {
+      "identity": 86,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "OrientationMeasure",
+        "uri": "http://purl.org/ieee1872-owl/pos#OrientationMeasure"
+      },
+      "elementId": "86"
+    }
+  },
+  {
+    "n": {
+      "identity": 87,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_PositionSpatialOperator",
+        "uri": "http://purl.org/ieee1872-owl/pos#_PositionSpatialOperator"
+      },
+      "elementId": "87"
+    }
+  },
+  {
+    "n": {
+      "identity": 88,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "_domain2",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_domain2"
+      },
+      "elementId": "88"
+    }
+  },
+  {
+    "n": {
+      "identity": 89,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "PositionSpatialOperator",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionSpatialOperator"
+      },
+      "elementId": "89"
+    }
+  },
+  {
+    "n": {
+      "identity": 90,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "_domain4",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_domain4"
+      },
+      "elementId": "90"
+    }
+  },
+  {
+    "n": {
+      "identity": 91,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_TernaryPredicate",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_TernaryPredicate"
+      },
+      "elementId": "91"
+    }
+  },
+  {
+    "n": {
+      "identity": 92,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_relOrientation",
+        "uri": "http://purl.org/ieee1872-owl/pos#_relOrientation"
+      },
+      "elementId": "92"
+    }
+  },
+  {
+    "n": {
+      "identity": 93,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__comment": "In IEEE 1872-2015, this relation is declared as a Ternary Predicate, but has four declared domains. This is probably a mistake. We consider it as a quaternary predicate.",
+        "n4sch__name": "_pGenerated",
+        "uri": "http://purl.org/ieee1872-owl/pos#_pGenerated"
+      },
+      "elementId": "93"
+    }
+  },
+  {
+    "n": {
+      "identity": 94,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_extensionPos",
+        "uri": "http://purl.org/ieee1872-owl/pos#_extensionPos"
+      },
+      "elementId": "94"
+    }
+  },
+  {
+    "n": {
+      "identity": 95,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_OrientationSpatialOperator",
+        "uri": "http://purl.org/ieee1872-owl/pos#_OrientationSpatialOperator"
+      },
+      "elementId": "95"
+    }
+  },
+  {
+    "n": {
+      "identity": 96,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_mapsOCS",
+        "uri": "http://purl.org/ieee1872-owl/pos#_mapsOCS"
+      },
+      "elementId": "96"
+    }
+  },
+  {
+    "n": {
+      "identity": 97,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_pCompose",
+        "uri": "http://purl.org/ieee1872-owl/pos#_pCompose"
+      },
+      "elementId": "97"
+    }
+  },
+  {
+    "n": {
+      "identity": 98,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "PoseMeasure",
+        "uri": "http://purl.org/ieee1872-owl/pos#PoseMeasure"
+      },
+      "elementId": "98"
+    }
+  },
+  {
+    "n": {
+      "identity": 99,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_relPosition",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_relPosition"
+      },
+      "elementId": "99"
+    }
+  },
+  {
+    "n": {
+      "identity": 100,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Function",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Function"
+      },
+      "elementId": "100"
+    }
+  },
+  {
+    "n": {
+      "identity": 101,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "measure",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#measure"
+      },
+      "elementId": "101"
+    }
+  },
+  {
+    "n": {
+      "identity": 102,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "posePosition",
+        "n4sch__propCharacteristics": "Functional",
+        "uri": "http://purl.org/ieee1872-owl/pos#posePosition"
+      },
+      "elementId": "102"
+    }
+  },
+  {
+    "n": {
+      "identity": 103,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "QuantPoseTransformationFunction",
+        "uri": "http://purl.org/ieee1872-owl/pos#QuantPoseTransformationFunction"
+      },
+      "elementId": "103"
+    }
+  },
+  {
+    "n": {
+      "identity": 104,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "overlapsPosition",
+        "n4sch__propCharacteristics": "Symmetric",
+        "uri": "http://purl.org/ieee1872-owl/pos#overlapsPosition"
+      },
+      "elementId": "104"
+    }
+  },
+  {
+    "n": {
+      "identity": 105,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "orientedAt",
+        "uri": "http://purl.org/ieee1872-owl/pos#orientedAt"
+      },
+      "elementId": "105"
+    }
+  },
+  {
+    "n": {
+      "identity": 106,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "_instance",
+        "uri": "http://purl.org/ieee1872-owl/pos#_instance"
+      },
+      "elementId": "106"
+    }
+  },
+  {
+    "n": {
+      "identity": 107,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_QuaternaryPredicate",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_QuaternaryPredicate"
+      },
+      "elementId": "107"
+    }
+  },
+  {
+    "n": {
+      "identity": 108,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "inOPR",
+        "uri": "http://purl.org/ieee1872-owl/pos#inOPR"
+      },
+      "elementId": "108"
+    }
+  },
+  {
+    "n": {
+      "identity": 109,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "parentOCS",
+        "n4sch__propCharacteristics": "Transitive",
+        "uri": "http://purl.org/ieee1872-owl/pos#parentOCS"
+      },
+      "elementId": "109"
+    }
+  },
+  {
+    "n": {
+      "identity": 110,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "OrientationTransformationFunction",
+        "uri": "http://purl.org/ieee1872-owl/pos#OrientationTransformationFunction"
+      },
+      "elementId": "110"
+    }
+  },
+  {
+    "n": {
+      "identity": 111,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "OrientationRegion",
+        "uri": "http://purl.org/ieee1872-owl/pos#OrientationRegion"
+      },
+      "elementId": "111"
+    }
+  },
+  {
+    "n": {
+      "identity": 112,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_mapsPCS",
+        "uri": "http://purl.org/ieee1872-owl/pos#_mapsPCS"
+      },
+      "elementId": "112"
+    }
+  },
+  {
+    "n": {
+      "identity": 113,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_oRGenerated",
+        "uri": "http://purl.org/ieee1872-owl/pos#_oRGenerated"
+      },
+      "elementId": "113"
+    }
+  },
+  {
+    "n": {
+      "identity": 114,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__comment": "Use this class with the property _range to define the output of the function. This relation has a similar role than \"_domain\", representing the output of the instantiation of a function.  Example of use:
+
+A representation in SUO-KIF
+
+(instance FatherOfFn UnaryFunction)
+(domain FatherOfFn 1 Person) 
+﻿(range FatherOfFn Person)
+
+A possible instantiation is:
+
+(equal (FatherOfFn luke) vader)
+
+In OWL, we have that:
+
+TBOX: 
+_FatherOfFn subclassof _UnaryFunction
+      and _domain1 some Person
+      and _range some  Person
+
+
+ABOX:
+UnaryFunction(FatherOfFn)
+
+_FatherOfFn(vaderFatherOfLuke)
+_classifiedBy(vaderFatherOfLuke, FatherOfFn)
+_domain1(vaderFatherOfLuke, vader)
+_range(vaderFatherOfLuke, luke)
+
+In order to retrieve the types of the arguments and output of the function, you must query the TBOX.",
+        "n4sch__name": "_Function",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_Function"
+      },
+      "elementId": "114"
+    }
+  },
+  {
+    "n": {
+      "identity": 115,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_oCompose",
+        "uri": "http://purl.org/ieee1872-owl/pos#_oCompose"
+      },
+      "elementId": "115"
+    }
+  },
+  {
+    "n": {
+      "identity": 116,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__comment": "In IEEE 1872-2015, the domain of class is MeasuringDevice, which is not present in SUMO 1.52. That is probably a mistake in IEEE 1872-2015.",
+        "n4sch__name": "robotSensingPart",
+        "uri": "http://purl.org/ieee1872-owl/rparts#robotSensingPart"
+      },
+      "elementId": "116"
+    }
+  },
+  {
+    "n": {
+      "identity": 117,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "robotCommunicatingPart",
+        "uri": "http://purl.org/ieee1872-owl/rparts#robotCommunicatingPart"
+      },
+      "elementId": "117"
+    }
+  },
+  {
+    "n": {
+      "identity": 118,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "robotProcessingPart",
+        "uri": "http://purl.org/ieee1872-owl/rparts#robotProcessingPart"
+      },
+      "elementId": "118"
+    }
+  },
+  {
+    "n": {
+      "identity": 119,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "robotActuatingPart",
+        "uri": "http://purl.org/ieee1872-owl/rparts#robotActuatingPart"
+      },
+      "elementId": "119"
+    }
+  },
+  {
+    "n": {
+      "identity": 120,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "QuaternaryPredicate",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#QuaternaryPredicate"
+      },
+      "elementId": "120"
+    }
+  },
+  {
+    "n": {
+      "identity": 121,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "member",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#member"
+      },
+      "elementId": "121"
+    }
+  },
+  {
+    "n": {
+      "identity": 122,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "QuaternaryRelation",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#QuaternaryRelation"
+      },
+      "elementId": "122"
+    }
+  },
+  {
+    "n": {
+      "identity": 123,
+      "labels": [
+        "Resource"
+      ],
+      "properties": {
+        "n4sch__name": "topObjectProperty",
+        "uri": "http://www.w3.org/2002/07/owl#topObjectProperty"
+      },
+      "elementId": "123"
+    }
+  },
+  {
+    "n": {
+      "identity": 124,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "SentientAgent",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#SentientAgent"
+      },
+      "elementId": "124"
+    }
+  },
+  {
+    "n": {
+      "identity": 125,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "patient",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#patient"
+      },
+      "elementId": "125"
+    }
+  },
+  {
+    "n": {
+      "identity": 126,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "InternalChange",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#InternalChange"
+      },
+      "elementId": "126"
+    }
+  },
+  {
+    "n": {
+      "identity": 127,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "causes",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#causes"
+      },
+      "elementId": "127"
+    }
+  },
+  {
+    "n": {
+      "identity": 128,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "ConstantQuantity",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#ConstantQuantity"
+      },
+      "elementId": "128"
+    }
+  },
+  {
+    "n": {
+      "identity": 129,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Quantity",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Quantity"
+      },
+      "elementId": "129"
+    }
+  },
+  {
+    "n": {
+      "identity": 130,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "SelfConnectedObject",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#SelfConnectedObject"
+      },
+      "elementId": "130"
+    }
+  },
+  {
+    "n": {
+      "identity": 131,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_TernaryRelation",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_TernaryRelation"
+      },
+      "elementId": "131"
+    }
+  },
+  {
+    "n": {
+      "identity": 132,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "_domain",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_domain"
+      },
+      "elementId": "132"
+    }
+  },
+  {
+    "n": {
+      "identity": 133,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_Relation",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_Relation"
+      },
+      "elementId": "133"
+    }
+  },
+  {
+    "n": {
+      "identity": 134,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_QuaternaryRelation",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_QuaternaryRelation"
+      },
+      "elementId": "134"
+    }
+  },
+  {
+    "n": {
+      "identity": 135,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "TimePosition",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#TimePosition"
+      },
+      "elementId": "135"
+    }
+  },
+  {
+    "n": {
+      "identity": 136,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Predicate",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Predicate"
+      },
+      "elementId": "136"
+    }
+  },
+  {
+    "n": {
+      "identity": 137,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "TernaryRelation",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#TernaryRelation"
+      },
+      "elementId": "137"
+    }
+  },
+  {
+    "n": {
+      "identity": 138,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "Relation",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Relation"
+      },
+      "elementId": "138"
+    }
+  },
+  {
+    "n": {
+      "identity": 139,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_Predicate",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_Predicate"
+      },
+      "elementId": "139"
+    }
+  },
+  {
+    "n": {
+      "identity": 140,
+      "labels": [
+        "Resource",
+        "n4sch__Relationship"
+      ],
+      "properties": {
+        "n4sch__name": "partlyLocated",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#partlyLocated"
+      },
+      "elementId": "140"
+    }
+  },
+  {
+    "n": {
+      "identity": 141,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "SingleValuedRelation",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#SingleValuedRelation"
+      },
+      "elementId": "141"
+    }
+  },
+  {
+    "n": {
+      "identity": 142,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "_VariableAssignment",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#_VariableAssignment"
+      },
+      "elementId": "142"
+    }
+  },
+  {
+    "n": {
+      "identity": 143,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "SetOrClass",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#SetOrClass"
+      },
+      "elementId": "143"
+    }
+  },
+  {
+    "n": {
+      "identity": 144,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "TernaryPredicate",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#TernaryPredicate"
+      },
+      "elementId": "144"
+    }
+  },
+  {
+    "n": {
+      "identity": 145,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "CorpuscularObject",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#CorpuscularObject"
+      },
+      "elementId": "145"
+    }
+  },
+  {
+    "n": {
+      "identity": 146,
+      "labels": [
+        "Resource",
+        "n4sch__Class"
+      ],
+      "properties": {
+        "n4sch__name": "TimeMeasure",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#TimeMeasure"
+      },
+      "elementId": "146"
+    }
+  }
+]

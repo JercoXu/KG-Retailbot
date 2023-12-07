@@ -1,0 +1,637 @@
+﻿[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Data",
+        "PositionMeasure"
+      ],
+      "properties": {
+        "x": 2.5,
+        "name": "product_location",
+        "y": 0.25,
+        "z": 1.25,
+        "source": "POS",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionMeasure"
+      },
+      "elementId": "0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Data",
+        "Object"
+      ],
+      "properties": {
+        "perishable": true,
+        "pose": [
+          0.25,
+          -0.85,
+          0.0
+        ],
+        "mass": "1 kg",
+        "name": "milk",
+        "id": 4,
+        "position": [
+          0.25,
+          -2.1,
+          1.5
+        ],
+        "source": "SUMO-CORA",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Object"
+      },
+      "elementId": "1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "Data",
+        "PositionMeasure"
+      ],
+      "properties": {
+        "x": 0.25,
+        "name": "product_location",
+        "y": -2.1,
+        "z": 1.5,
+        "source": "POS",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionMeasure"
+      },
+      "elementId": "2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Data",
+        "PositionRegion"
+      ],
+      "properties": {
+        "name": "product_region",
+        "source": "POS",
+        "value": "Table1",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionRegion"
+      },
+      "elementId": "3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Data",
+        "PoseMeasure"
+      ],
+      "properties": {
+        "name": "base_location",
+        "x": 0.25,
+        "y": -0.85,
+        "source": "POS",
+        "theta": 0.0,
+        "uri": "http://purl.org/ieee1872-owl/pos#PoseMeasure"
+      },
+      "elementId": "4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Data",
+        "PoseMeasure"
+      ],
+      "properties": {
+        "name": "base_location",
+        "x": 0.25,
+        "y": 0.35,
+        "source": "POS",
+        "theta": 0.0,
+        "uri": "http://purl.org/ieee1872-owl/pos#PoseMeasure"
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Data",
+        "Object"
+      ],
+      "properties": {
+        "perishable": false,
+        "pose": [
+          0.25,
+          0.35,
+          0.0
+        ],
+        "mass": "1.2 kg",
+        "name": "juice",
+        "id": 1,
+        "position": [
+          0.25,
+          -0.6,
+          1.5
+        ],
+        "source": "SUMO-CORA",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Object"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Data",
+        "PositionMeasure"
+      ],
+      "properties": {
+        "x": 0.25,
+        "name": "product_location",
+        "y": -0.6,
+        "z": 1.5,
+        "source": "POS",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionMeasure"
+      },
+      "elementId": "7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Data",
+        "PositionRegion"
+      ],
+      "properties": {
+        "name": "product_region",
+        "source": "POS",
+        "value": "Table2",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionRegion"
+      },
+      "elementId": "8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Data",
+        "PositionMeasure"
+      ],
+      "properties": {
+        "x": 2.5,
+        "name": "product_location",
+        "y": -0.4,
+        "z": 1.35,
+        "source": "POS",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionMeasure"
+      },
+      "elementId": "9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Data",
+        "Object"
+      ],
+      "properties": {
+        "perishable": false,
+        "pose": [
+          1.1,
+          -0.4,
+          0.0
+        ],
+        "mass": "20 g",
+        "name": "hagelslag",
+        "position": [
+          2.5,
+          -0.4,
+          1.35
+        ],
+        "id": 5,
+        "source": "SUMO-CORA",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Object"
+      },
+      "elementId": "10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Data",
+        "PoseMeasure"
+      ],
+      "properties": {
+        "name": "base_location",
+        "x": 1.1,
+        "y": -0.4,
+        "source": "POS",
+        "theta": 0.0,
+        "uri": "http://purl.org/ieee1872-owl/pos#PoseMeasure"
+      },
+      "elementId": "11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Data",
+        "PositionRegion"
+      ],
+      "properties": {
+        "name": "product_region",
+        "source": "POS",
+        "value": "Shelf2",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionRegion"
+      },
+      "elementId": "12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Data",
+        "Object"
+      ],
+      "properties": {
+        "perishable": true,
+        "pose": [
+          1.1,
+          -0.6,
+          0.0
+        ],
+        "mass": "450 g",
+        "name": "yogurt",
+        "id": 6,
+        "position": [
+          1.8,
+          -0.6,
+          1.5
+        ],
+        "source": "SUMO-CORA",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Object"
+      },
+      "elementId": "13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Data",
+        "PoseMeasure"
+      ],
+      "properties": {
+        "name": "base_location",
+        "x": 1.1,
+        "y": -0.6,
+        "source": "POS",
+        "theta": 0.0,
+        "uri": "http://purl.org/ieee1872-owl/pos#PoseMeasure"
+      },
+      "elementId": "14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Data",
+        "PositionMeasure"
+      ],
+      "properties": {
+        "x": 1.8,
+        "name": "product_location",
+        "y": -0.6,
+        "z": 1.5,
+        "source": "POS",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionMeasure"
+      },
+      "elementId": "15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Data",
+        "PositionRegion"
+      ],
+      "properties": {
+        "name": "product_region",
+        "source": "POS",
+        "value": "Shelf2",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionRegion"
+      },
+      "elementId": "16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Data",
+        "PhysicalQuantity"
+      ],
+      "properties": {
+        "pose": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "name": "delivery_loc",
+        "source": "SUMO-CORA",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#PhysicalQuantity"
+      },
+      "elementId": "17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Data",
+        "PoseMeasure"
+      ],
+      "properties": {
+        "name": "base_loc",
+        "x": 1.1,
+        "y": -0.6,
+        "source": "POS",
+        "theta": 0.0,
+        "uri": "http://purl.org/ieee1872-owl/pos#PoseMeasure"
+      },
+      "elementId": "18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Ontology",
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "neo4jImportId": "71",
+        "name": "Physical",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Physical"
+      },
+      "elementId": "19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Ontology",
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "neo4jImportId": "37",
+        "name": "PhysicalQuantity",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#PhysicalQuantity"
+      },
+      "elementId": "20"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Ontology",
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "neo4jImportId": "129",
+        "name": "Quantity",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Quantity"
+      },
+      "elementId": "22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Ontology",
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "neo4jImportId": "34",
+        "name": "Abstract",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Abstract"
+      },
+      "elementId": "23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Data",
+        "Object"
+      ],
+      "properties": {
+        "perishable": false,
+        "pose": [
+          1.1,
+          0.6,
+          0.0
+        ],
+        "mass": "0.5 kg",
+        "name": "tea_box",
+        "id": 2,
+        "position": [
+          2.5,
+          0.6,
+          1.5
+        ],
+        "source": "SUMO-CORA",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Object"
+      },
+      "elementId": "24"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Ontology",
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "neo4jImportId": "40",
+        "name": "Entity",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Entity"
+      },
+      "elementId": "25"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Ontology",
+        "SUMO-CORA"
+      ],
+      "properties": {
+        "neo4jImportId": "7",
+        "name": "Agent",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Agent"
+      },
+      "elementId": "26"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Data",
+        "Robot"
+      ],
+      "properties": {
+        "OS": "Ubuntu LTS",
+        "weight": "70 kg",
+        "CPU": "Intel i5/i7",
+        "arm payload": "3 kg",
+        "designer": "PAL Robotics",
+        "source": "SUMO-CORA",
+        "wireless connectivity": "802.11ax Wi-Fi 6 & Bluetooth 4.0",
+        "uri": "http://purl.org/ieee1872-owl/cora-bare#Robot",
+        "footprint": "ø 54 cm",
+        "mounting points": "head, laptop tray and mobile base",
+        "battery autonomy": "4-5h (1 battery)/8-10h (2 batteries)",
+        "name": "TIAGo",
+        "style": "mobile service robot",
+        "id": 0,
+        "height": "110-145 cm"
+      },
+      "elementId": "31"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Data",
+        "PositionRegion"
+      ],
+      "properties": {
+        "name": "product_region",
+        "source": "POS",
+        "value": "Basket",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionRegion"
+      },
+      "elementId": "33"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Data",
+        "Object"
+      ],
+      "properties": {
+        "perishable": true,
+        "pose": [
+          1.1,
+          0.3,
+          0.0
+        ],
+        "mass": "1.5 kg",
+        "name": "ice_cream",
+        "id": 3,
+        "position": [
+          2.5,
+          0.25,
+          1.25
+        ],
+        "source": "SUMO-CORA",
+        "uri": "http://purl.org/ieee1872-owl/sumo-cora#Object"
+      },
+      "elementId": "34"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Data",
+        "PositionRegion"
+      ],
+      "properties": {
+        "name": "product_region",
+        "source": "POS",
+        "value": "Shelf1",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionRegion"
+      },
+      "elementId": "35"
+    }
+  },
+  {
+    "n": {
+      "identity": 36,
+      "labels": [
+        "Data",
+        "PoseMeasure"
+      ],
+      "properties": {
+        "name": "base_location",
+        "x": 1.1,
+        "y": 0.3,
+        "source": "POS",
+        "theta": 0.0,
+        "uri": "http://purl.org/ieee1872-owl/pos#PoseMeasure"
+      },
+      "elementId": "36"
+    }
+  },
+  {
+    "n": {
+      "identity": 38,
+      "labels": [
+        "Data",
+        "PoseMeasure"
+      ],
+      "properties": {
+        "name": "base_location",
+        "x": 1.1,
+        "y": 0.6,
+        "source": "POS",
+        "theta": 0.0,
+        "uri": "http://purl.org/ieee1872-owl/pos#PoseMeasure"
+      },
+      "elementId": "38"
+    }
+  },
+  {
+    "n": {
+      "identity": 39,
+      "labels": [
+        "Data",
+        "PositionMeasure"
+      ],
+      "properties": {
+        "x": 2.5,
+        "name": "product_location",
+        "y": 0.6,
+        "z": 1.5,
+        "source": "POS",
+        "uri": "http://purl.org/ieee1872-owl/pos#PositionMeasure"
+      },
+      "elementId": "39"
+    }
+  }
+]
