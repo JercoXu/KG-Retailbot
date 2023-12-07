@@ -1,8 +1,0 @@
-prefix=/home/jerco/Desktop/thesis/catkin_ws/devel
-
-Name: albert_skills
-Description: Description of albert_skills
-Version: 0.0.0
-Cflags: -I/home/jerco/Desktop/thesis/catkin_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: 
