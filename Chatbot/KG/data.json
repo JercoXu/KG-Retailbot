@@ -1,0 +1,242 @@
+{
+    "robot": [
+        {
+            "id": 0,
+            "name": "TIAGo",
+            "designer": "PAL Robotics",
+            "style": "mobile service robot",
+            "height": "110-145 cm",
+            "weight": "70 kg",
+            "footprint": "ø 54 cm",
+            "CPU": "Intel i5/i7",
+            "OS": "Ubuntu LTS",
+            "arm payload": "3 kg",
+            "battery autonomy": "4-5h (1 battery)/8-10h (2 batteries)",
+            "mounting points":	"head, laptop tray and mobile base",
+            "wireless connectivity": "802.11ax Wi-Fi 6 & Bluetooth 4.0"
+        }
+    ],
+    "configuration": [
+        {
+            "id": 0,
+            "name": "body",
+            "robot": "TIAGo",
+            "arm payload": "3 kg",
+            "arm reach": "87 cm",
+            "torso lift": "35 cm"
+        },
+        {
+            "id": 1,
+            "name": "mobile base",
+            "robot": "TIAGo",
+            "drive": "differential/omnidirectional",
+            "max speed": "1.5 m/s",
+            "operational environment": "indoor"
+        },
+        {
+            "id": 2,
+            "name": "sensors",
+            "robot": "TIAGo",
+            "base": "laser 5.6/10/25 m & rear sonars 3x1 m range",
+            "IMU (base)": "6DoF",
+            "motors": "actuators current feedback",
+            "head": "RGB-D camera"
+        },
+        {
+            "id": 3,
+            "name": "audio",
+            "robot": "TIAGo",
+            "speakers": "2x5 W audio speaker",
+            "microphone": "2x microphone array with stereo output 50-8000Hz"
+        },
+        {
+            "id": 4,
+            "name": "computer",
+            "robot": "TIAGo",
+            "CPU": "Intel i5/i7",
+            "RAM": "8/16 GB",
+            "SSD": "250/500 GB"
+        },
+        {
+            "id": 5,
+            "name": "connectivity",
+            "robot": "TIAGo",
+            "wireless connectivity": "802.11ax Wi-Fi 6 & Bluetooth 4.0"
+        },
+        {
+            "id": 6,
+            "name": "electrical features",
+            "robot": "TIAGo",
+            "battery": "36V 20Ah",
+            "battery autonomy": "4-5/8-10 h"
+        },
+        {
+            "id": 7,
+            "name": "software",
+            "robot": "TIAGo",
+            "OS": "Ubuntu LTS",
+            "middleware": "ROS LTS",
+            "arm control mode": "position/velocity/effort control"
+        },
+        {
+            "id": 8,
+            "name": "extensibility",
+            "robot": "TIAGo",
+            "laptop tray": "enable",
+            "USB ports": "1x USB 3.0 & 1x USB 2.0",
+            "ethernet ports": "2x GbE (Gigabit Ethernet)",
+            "power suppy": "12 V/5 A",
+            "service panel": "HDMI & USB 3.0"
+        },
+        {
+            "id": 9,
+            "name": "optionals",
+            "robot": "TIAGo",
+            "end-effector": "Hey5 Hand/PAL gripper/Robotiq™ 2F 85/140/EPick/your own",
+            "wrist sensor": "6 axis force/torque sensor",
+            "dock station": "enable",
+            "ethernet ports": "2x GbE (Gigabit Ethernet)",
+            "touchscreen": "enable",
+            "AI Kit": "NVIDIA® Jetson™ TX2 Add-on"
+        }
+    ],
+    "skill": [
+        {
+            "id": 0,
+            "name": "move_action",
+            "robot": "TIAGo"
+
+        },
+        {
+            "id": 1,
+            "name": "pick_action",
+            "robot": "TIAGo"
+        },
+        {
+            "id": 2,
+            "name": "place_action",
+            "robot": "TIAGo"
+        }
+    ],
+    "task": {
+        "task_1": [
+            {
+                "id": 0,
+                "name": "move",
+                "robot": "TIAGo",
+                "origin": "table_1",
+                "destination": "shelf_1",
+                "speed": "1 m/s",
+                "status": "finished",
+                "error": "none"
+            },
+            {
+                "id": 1,
+                "name": "pick",
+                "robot": "TIAGo",
+                "item": "yogurt",
+                "from": "shelf_1",
+                "speed": "0.6 m/s",
+                "status": "finished",
+                "error": "none"
+            }
+        ],
+        "task_2": [
+            {
+                "id": 0,
+                "name": "move",
+                "robot": "TIAGo",
+                "origin": "shelf_1",
+                "destination": "shelf_2",
+                "speed": "1 m/s",
+                "status": "finished",
+                "error": "none"
+            },
+            {
+                "id": 1,
+                "name": "place",
+                "robot": "TIAGo",
+                "item": "cola",
+                "to": "shelf_2",
+                "speed": "0.5 m/s",
+                "status": "stop",
+                "error": "can not find the path"
+            }
+        ],
+        "task_3": [
+            {
+                "id": 0,
+                "name": "move",
+                "robot": "TIAGo",
+                "origin": "table_2",
+                "destination": "table_1",
+                "speed": "1.2 m/s",
+                "status": "ongoing",
+                "error": "none"
+            }
+        ]
+    },
+    "product": [
+        {
+            "id": 0,
+            "name": "cola",
+            "brand": "Coca-Cola",
+            "position": "(5, 20, 60)",
+            "orientation": "(0, 0, 30)",
+            "color": "red",
+            "weight": "375 g",
+            "volume": "330 ml"
+        },
+        {
+            "id": 1,
+            "name": "yogurt",
+            "brand": "Arla",
+            "position": "(50, 10, 60)",
+            "orientation": "(0, 0, 90)",
+            "color": "blue",
+            "weight": "450 g"
+        },
+        {
+            "id": 2,
+            "name": "milk",
+            "brand": "Campina",
+            "position": "(110, 90, 70)",
+            "orientation": "(0, 0, 20)",
+            "color": "blue",
+            "volume": "1 L"
+        }
+    ],
+    "environment": [
+        {
+            "id": 0,
+            "name": "table_1",
+            "position": "(-20, 20, 30)",
+            "orientation": "(0, 0, 90)"
+        },
+        {
+            "id": 1,
+            "name": "table_2",
+            "position": "(-20, 60, 30)",
+            "orientation": "(0, 0, 90)"
+        },
+        {
+           "id": 2,
+            "name": "shelf_1",
+            "position": "(0, 100, 50)",
+            "orientation": "(0, 0, -90)"
+        },
+        {
+           "id": 3,
+            "name": "shelf_2",
+            "position": "(20, 100, 50)",
+            "orientation": "(0, 0, -90)"
+        },
+        {
+           "id": 4,
+            "name": "robot",
+            "position": "(10, 400, 10)",
+            "orientation": "(0, 0, 20)",
+            "speed": "1.2 m/s"
+        }
+    ]
+}

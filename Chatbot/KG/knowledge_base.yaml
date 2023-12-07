@@ -1,0 +1,84 @@
+tea_box:
+  ID_tag: 2
+  mass: 0.5 kg
+  perishable: False
+  base_loc:
+    x: 1.10
+    y: 0.60
+    theta: 0.0
+  product_loc:
+    x: 2.50
+    y: 0.60
+    z: 1.5
+  product_reg: Shelf1
+ice_cream:
+  ID_tag: 3
+  mass: 1.5 kg
+  perishable: True
+  base_loc:
+    x: 1.10
+    y: 0.30
+    theta: 0.0
+  product_loc:
+    x: 2.50
+    y: 0.25
+    z: 1.25
+  product_reg: Shelf1
+milk:
+  ID_tag: 4
+  mass: 1 kg
+  perishable: True
+  base_loc:
+    x: 0.25
+    y: -0.85
+    theta: 0.0
+  product_loc:
+    x: 0.25
+    y: -2.1
+    z: 1.5
+  product_reg: Table1
+juice:
+  ID_tag: 1
+  mass: 1.2 kg
+  perishable: False
+  base_loc:
+    x: 0.25
+    y: 0.35
+    theta: 0.0
+  product_loc:
+    x: 0.25
+    y: -0.6
+    z: 1.5
+  product_reg: Table2
+hagelslag:
+  ID_tag: 5
+  mass: 20 g
+  perishable: False
+  base_loc:
+    x: 1.1
+    y: -0.4
+    theta: 0.0
+  product_loc:
+    x: 2.50
+    y: -0.4
+    z: 1.35
+  product_reg: Shelf2
+yogurt:
+  ID_tag: 6
+  mass: 450 g
+  perishable: True
+  base_loc:
+    x: 1.1
+    y: -0.6
+    theta: 0.0
+  product_loc:
+    x: 1.80
+    y: -0.6
+    z: 1.5
+  product_reg: Shelf2
+delivery_loc:
+  base_loc:
+    x: -0.0
+    y: -0.0
+    theta: 0
+

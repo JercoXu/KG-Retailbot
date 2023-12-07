@@ -1,0 +1,513 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - morning
+    - nice to meet you
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Are you there
+- intent: introduce_chatbot
+  examples: |
+    - tell me about yourself
+    - can you introduce yourself
+    - could you introduce yourself
+    - what's your name?
+    - are you a bot?
+    - are you a machine?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who am I talking with?
+    - am I chatting with machine?
+    - introduce about yourself
+    - introduce yourself
+    - i want to know you
+    - I want to know about you
+- intent: chatbot_capability
+  examples: |
+    - what can you do?
+    - what can I ask you?
+    - whact can I ask about
+    - what should I ask you?
+    - what things can I ask you
+    - how should I start?
+    - what could I ask you
+    - what can I get
+    - what can I get from you
+    - what can I query about
+    - where should I start
+    - where should I start from
+    - how could I start?
+    - what should I do for now?
+- intent: query_environment
+  examples: |
+    - What do you have in this environment?
+    - what are in the environment?
+    - what does environment look?
+    - where is the environment?
+    - where is the test environment
+    - tell me the environment
+    - tell me about the lab
+    - what is the environment
+    - how about the environment
+    - what does the environment look like?
+    - I want to know the environment
+    - tell me environment information
+    - describe the environment
+    - describe the surrounding environment
+    - how does the environment appear to be?
+    - give me some background on the environment
+    - introduce the environment information
+    - introduce the environment to me
+    - give me some background on the setting
+    - how about the lab environment
+    - tell me about AIRLab
+    - introduce AIRLab to me
+    - i want to know more about lab
+    - want to know the environment
+- intent: goodbye
+  examples: |
+    - good bye
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: thank
+  examples: |
+    - thank you
+    - thank
+    - thanks
+    - thanks for the help
+    - you are useful
+    - your performance is good
+    - your behavior is satisfied
+    - your performance is satisfied
+    - thanks for your response
+    - thx
+    - thanks for your answer
+    - thanks for helping me
+    - you are very helpful
+- intent: query_product
+  examples: |
+    - What kinds of [products](object_type) do you have in this environment?
+    - What kinds of [goods](object_type) do you offer in this setting?
+    - I am wondering what sort of [good](object_type) you had available here.
+    - What sort of [good](object_type) do you have available here?
+    - what [products](object_type) are in the environment？
+    - What [objects](object_type) are in the environment?
+    - What [items](object_type) are in the environment?
+    - list the [products](object_type) in the environment for me
+    - I want to know the [products](object_type) in the environment
+    - are any [products](object_type)?
+    - How many [objects] are in the lab?
+    - Tell me about the [objects](object_type) in the lab?
+    - Tell me about the [products](object_type) in the environment
+    - Tell me the [item](object_type) in the environment
+- intent: query_product_property
+  examples: |
+    - what is the [id](attribute) of [tea_box](object)?
+    - what is the [Id](attribute) of [tea box](object)?
+    - what is [ID] of [juice](object)?
+    - I want to know [tea](object)'s [ID_tag](attribute)
+    - I want to know [juice](object)'s [tag](attribute)
+    - what is the [id](attribute) for [hagelslag](object)?
+    - tell me the the [ID_tag](attribute) of [milk](object)?
+    - can you tell me the [ID_tag](attribute) of [yogurt](object)?
+    - could you tell me the [id](attribute) about [ice cream](object)
+    - please tell me [hagelslag](object)'s [ID_tag](attribute)
+    - tell me [tag](attribute) of [ice cream](object)
+    - tell me the [mass](attribute) of [milk](object)
+    - What is the [mass](attribute) of [hagelslag](object)
+    - What is the [mass](attribute) of [tea box](object)
+    - What is the [mass](attribute) of [ice cream](object)
+    - what is [mass](attribute) of [yogurt](object)
+    - what is [mass](attribute) of [juice](object)
+    - How much does [juice](object) [weigh](attribute)?
+    - tell me [ice cream](object)'s [weight](attribute)
+    - can you tell me [tea box](object)'s [mass](attribute)
+    - How much does [hagelslag](object) [weigh](attribute)?
+    - Is [tea_box](object) [perishable](attribute)?
+    - Is [milk](object) [perishable](attribute)?
+    - is [juice](object) [perishable](attribute)?
+    - is [yogurt](object) [perishable](attribute)?
+    - is [hagelslag](object) [perishable](attribute)?
+    - is [ice cream](object) [perishable](attribute)?
+    - Is [ice cream] easy to be [stored](attribute)?
+    - I wonder whether [juice] is [nonperishable](attribute)?
+    - Is [yogurt] easy for us to [store](attribute)?
+    - what [pose](attribute) can pick [hagelslag](object)?
+    - what is the right [pose](attribute) to grab [tea box](object)?
+    - what is the [pose](attribute) to pick [yogurt](object)?
+    - Which [pose](attribute) will the robot take to grab [ice_cream](object)?
+    - To pick [milk](object), what [pose](attribute) will be used?
+    - What [posture](attribute) will the robot take to grab [juice](object)?
+    - What [posture](attribute) will the robot use to pick [ice cream](object)?
+    - what is the [pose](attribute) of [hagelslag](object)?
+    - what is the [pose](attribute) of [yogurt](object)?
+    - what is the [pose](attribute) of [juice](object)?
+    - what is the [pose](attribute) of [ice cream](object)?
+    - what is the [pose](attribute) of [tea_box](object)?
+    - what is the [pose](attribute) of [milk](object)?
+- intent: query_perishable
+  examples: |
+    - What products in the environment are perishable?
+    - Is there anything perishable?
+    - What items are perishable?
+    - Which goods are perishable?
+    - Which products are easy to decay?
+    - Which items are perishable in the environment?
+- intent: query_nonperishable
+  examples: |
+    - What products in the environment are nonperishable?
+    - Is there anything nonperishable?
+    - What items are nonperishable?
+    - Which goods are non-perishable?
+    - Which products are hard to decay?
+    - Which items are nonperishable in the environment?
+- intent: query_specific_product
+  examples: |
+    - is [milk](object) are in the environment？
+    - I wonder whether [yogurt](object) is here?
+    - Is the environment contains [juice](object)?
+    - Is there [fruit](object)?
+    - is [ice cream](object) here?
+    - Do the environment contains [meat](object)?
+    - Do the environment contains [flower](object)?
+    - tell me about [yogurt](object)
+    - introduce me [hagelslag](object)
+    - tell me [juice](object)
+    - Tell me [something](property) of [milk](object).
+    - Tell me [something](property) about [meat](object).
+    - tell me [something](property) about [juice](object)
+    - tell me [something](property) about [hagelslag](object)
+    - tell me [something](property) about [tea](object)
+    - tell me [something](property) about [ice cream](object)
+    - tell me [something](property) about [yogurt](object)
+    - Tell me [more](property) about [yogurt](object).
+    - I want to know [more](property) about [tea](object)
+    - introduce [more](property) about [flower](object)
+    - can you tell me the [attributes](property) of [tea box](object)
+    - I want to know [property](property) about [hagelslag](object).
+    - What is [properties](property) of [juice](object)
+    - What are the [attributes](property) of [objects](object_type) in the environment?
+    - Tell me the the [properties](property) of [items](object_type) in the environment.
+    - What are the [properties](property) of [products](object_type) in the environment?
+    - What [attributes](property) can I ask about [items](object_type) in the lab?
+    - What type of [attributes](property) can I ask?
+    - What type of [properties](property) can I ask?
+    - What [properties](property) can I ask?
+    - What [properties](property) can I ask about the [product](object_type)?
+- intent: query_product_location
+  examples: |
+    - where could find [hagelslag](object)?
+    - Where is the [milk](object)?
+    - where is [milk](object)?
+    - where is [tea box](object)?
+    - where is [hagelslag](object)?
+    - where is [yogurt](object)?
+    - where is [juice](object)?
+    - Where is [meat](object)?
+    - Where to find [flower](object)?
+    - Where is the [ice cream]?
+    - Which location could find [hagelslag](object)?
+    - tell me the position of [tea_box](object)
+    - tell me the position of [juice](object)
+    - tell me the position of [milk](object)
+    - tell me the position of [hagelslag](object)
+    - tell me the position of [ice cream](object)
+    - tell me the position of [yogurt](object)
+    - what is the position of [juice](object)
+    - what is the position of [milk](object)
+    - what is the position of [yogurt](object)
+    - what is the position of [hagelslag](object)
+    - what is the position of [ice cream](object)
+    - what is the position of [tea box](object)
+    - where I could find [juice](object)?
+    - Where the robot could find [yogurt](object)?
+    - Which position could find [ice_cream](object)?
+    - What position could I find [milk](object)?
+    - What position can find [tea box](object)?
+- intent: query_current_action
+  examples: |
+    - What are you doing?
+    - what is the robot doing
+    - what is robot doing
+    - What action are you doing?
+    - I want to know the current action
+    - Tell me the current subtask
+    - I wonder details of current subtask
+    - What is the current action?
+- intent: query_current_task
+  examples: |
+    - give me an overview of current task
+    - give me overview of current task
+    - give me a general picture of current task
+    - What task are you performing?
+    - what is the task?
+    - what is your task
+    - what is your tasks
+    - what are your tasks
+    - what task
+    - What is the current task
+    - Tell me your current task
+    - I want to know details of current task
+    - Can you tell me the current task
+- intent: query_furniture
+  examples: |
+    - What products on the [shelf_1](furniture)?
+    - Which object on the [table 2](furniture)?
+    - [shelf_1](furniture) contains what object
+    - Tell me the item in the [table_1](furniture)?
+    - What products are placed in [table 1](furniture)?
+    - I want to know the product on the [shelf2](furniture)
+    - can you tell me objects on [Shelf2](furniture)?
+    - what items does [table1](furniture) contain?
+    - What products are placed in [shelf1](furniture)?
+    - What objects are on [table 1](furniture)?
+    - What products are in [basket](furniture)?
+    - What products are in [Basket](furniture)?
+    - what products on [table 1](furniture)?
+    - what products on [table2](furniture)?
+    - what products on [shelf_1](furniture)?
+    - what products on [shelf_2](furniture)?
+    - What products are placed in [basket](furniture)?
+    - [Basket](furniture) contains what object
+    - what is on [table 1](furniture)?
+    - what is on [table2](furniture)?
+    - what is on [shelf 1](furniture)?
+    - what is on [shelf_2](furniture)?
+- intent: query_predict
+  examples: |
+    - What is the next action?
+    - Can you tell me the next plan?
+    - Can next action be predictable?
+    - Can you predict next action?
+    - What is the next plan?
+    - Could you tell me the next plan?
+    - Do you know next action?
+    - Can you know the further actions?
+    - Tell me the further task
+    - Tell me the future task.
+    - Can you tell me the future action?
+- intent: query_previous_task
+  examples: |
+    - What is the previous task?
+    - what is previous tasks
+    - what are previous tasks?
+    - what are the previous tasks
+    - Can you tell me the last task?
+    - give me an overview of previous task
+    - give me a general picture of previous task
+    - what is the previous task
+    - tell me about previous task
+    - introduce previous task
+    - which products is manipulated in previous task
+    - what products are manipulated in previous task
+    - what goods are manipulated in last task
+    - what good is manipulated in the preceding task?
+    - Which products did you manipulate in the preceding task
+- intent: query_specific_task
+  examples: |
+    - What is the [first task](task)?
+    - Can you tell me the [second task](task)
+    - what is [task1](task)
+    - what is [task 2](task)
+    - what is [task3](task)
+    - tell me [task1](task)
+    - tell me [task_2](task)
+    - tell me [task_3](task)
+    - introduce me [3rd task](task)
+    - tell me about [task_3](task)
+    - tell me about [task1](task)
+    - tell me about [task 1](task)
+    - want to know about [task2](task)
+    - what did you do in [task_1](task)
+    - what do you do in [third task](task)
+    - which products is manipulated in [task2](task)
+    - what products are manipulated in [task3](task)
+    - what goods are manipulated in [Task1](task)
+    - which goods is manipulated in the [2nd task](task)
+    - Which products did you manipulate in the [Task_2](task)
+- synonym: last
+  examples: |
+    - previous
+    - Previous
+- synonym: Basket
+  examples: |
+    - basket
+- synonym: Shelf1
+  examples: |
+    - shelf 1
+    - shelf1
+    - shelf_1
+    - Shelf 1
+    - Shelf_1
+- synonym: Shelf2
+  examples: |
+    - shelf 2
+    - shelf2
+    - shelf_2
+    - Shelf 2
+    - Shelf_2
+- synonym: Table1
+  examples: |
+    - table 1
+    - table1
+    - table_1
+    - Table 1
+    - Table_1
+- synonym: Table2
+  examples: |
+    - table 2
+    - table2
+    - table_2
+    - Table 2
+    - Table_2
+- synonym: pose
+  examples: |
+    - Pose
+    - posture
+    - Posture
+- synonym: perishable
+  examples: |
+    - storing
+    - store
+    - stored
+    - Perishable
+    - Nonperishable
+- synonym: tea_box
+  examples: |
+    - tea box
+    - tea
+    - Tea
+    - teabox
+    - Teabox
+- synonym: ice_cream
+  examples: |
+    - cream
+    - ice cream
+    - icecream
+- synonym: property
+  examples: |
+    - properties
+    - something
+    - more
+    - attribute
+    - attributes
+- synonym: task
+  examples: |
+    - tasks
+- synonym: subtask
+  examples: |
+    - action
+    - subtasks
+- synonym: task_1
+  examples: |
+    - first task
+    - 1st task
+    - task1
+    - task 1
+    - Task1
+    - Task 1
+    - Task_1
+- synonym: task_2
+  examples: |
+    - second task
+    - 2nd task
+    - task2
+    - task 2
+    - Task2
+    - Task 2
+    - Task_2
+- synonym: task_3
+  examples: |
+    - third task
+    - 3rd task
+    - task 3
+    - task3
+    - Task3
+    - Task 3
+    - Task_3
+- synonym: subtask_1
+  examples: |
+    - first subtask
+    - 1st subtask
+    - first action
+    - 1st action
+    - action1
+    - action_1
+    - action 1
+    - Action1
+    - Action_1
+    - Action 1
+- synonym: subtask_2
+  examples: |
+    - second subtask
+    - 2nd subtask
+    - second action
+    - 2nd action
+    - action2
+    - action_2
+    - action 2
+    - Action2
+    - Action_2
+    - Action 2
+- synonym: subtask_3
+  examples: |
+    - third subtask
+    - 3rd subtask
+    - third action
+    - 3rd action
+    - action3
+    - action_3
+    - action 3
+    - Action3
+    - Action_3
+    - Action 3
+- synonym: object
+  examples: |
+    - products
+    - product
+    - objects
+    - item
+    - items
+    - goods
+    - good
+- synonym: mass
+  examples: |
+    - weight
+    - weigh
+- synonym: id
+  examples: |
+    - Id
+    - ID
+    - tag
+    - ID_tag
+    - id_tag
+- synonym: '1'
+  examples: |
+    - first
+    - one
+- synonym: '2'
+  examples: |
+    - second
+    - two
+- synonym: '3'
+  examples: |
+    - third
+    - three

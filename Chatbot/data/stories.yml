@@ -1,0 +1,207 @@
+version: "2.0"
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce_chatbot
+  - action: utter_chatbot_information
+  - intent: chatbot_capability
+  - action: utter_chatbot_capability
+  - intent: query_product
+  - action: action_response_query
+  - intent: query_product_property
+  - action: action_response_product_property
+  - intent: query_specific_product
+  - action: action_response_specific_product
+  - intent: query_product_location
+  - action: action_response_product_location
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: goodbye
+  - action: utter_goodbye
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce_chatbot
+  - action: utter_chatbot_information
+  - intent: chatbot_capability
+  - action: utter_chatbot_capability
+  - intent: query_product_property
+  - action: action_response_product_property
+  - intent: query_specific_product
+  - action: action_response_specific_product
+  - intent: query_product_location
+  - action: action_response_product_location
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: goodbye
+  - action: utter_goodbye
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce_chatbot
+  - action: utter_chatbot_information
+  - intent: query_product
+  - action: action_response_query
+  - intent: query_product_property
+  - action: action_response_product_property
+  - intent: query_specific_product
+  - action: action_response_specific_product
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: goodbye
+  - action: utter_goodbye
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce_chatbot
+  - action: utter_chatbot_information
+  - intent: query_product
+  - action: action_response_query
+  - intent: query_product_property
+  - action: action_response_product_property
+  - intent: query_specific_product
+  - action: action_response_specific_product
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: goodbye
+  - action: utter_goodbye
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path4
+  steps:
+  - intent: query_product
+  - action: action_response_query
+  - intent: query_product_property
+  - action: action_response_product_property
+  - intent: query_specific_product
+  - action: action_response_specific_product
+  - intent: query_product_location
+  - action: action_response_product_location
+
+- story: happy path5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce_chatbot
+  - action: utter_chatbot_information
+  - intent: chatbot_capability
+  - action: utter_chatbot_capability
+  - intent: query_product_property
+  - action: action_response_product_property
+  - intent: query_specific_product
+  - action: action_response_specific_product
+  - intent: query_product_location
+  - action: action_response_product_location
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: goodbye
+  - action: utter_goodbye
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy path6
+  steps:
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_predict
+  - action: utter_predict
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_action
+  - action: action_current_action
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_task
+  - action: action_current_task
+  - intent: query_current_task
+  - action: action_current_task
+
+- story: happy path7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_product_property
+  - action: action_response_product_property
+  - intent: query_product_location
+  - action: action_response_product_location
+  - intent: query_specific_product
+  - action: action_response_specific_product
+  - intent: query_predict
+  - action: utter_predict
+
+- story: sad path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce_chatbot
+  - action: utter_chatbot_information
+  - intent: chatbot_capability
+  - action: utter_chatbot_capability
+  - intent: goodbye
+  - action: utter_goodbye

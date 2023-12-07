@@ -1,0 +1,82 @@
+version: "2.0"
+rules:
+
+- rule: hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+- rule: bye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: thank
+  steps:
+  - intent: thank
+  - action: utter_thank
+- rule: introduce
+  steps:
+  - intent: introduce_chatbot
+  - action: utter_chatbot_information
+- rule: capability
+  steps:
+  - intent: chatbot_capability
+  - action: utter_chatbot_capability
+- rule: query_product
+  steps:
+  - intent: query_product
+  - action: action_response_query
+- rule: ask to repeat
+  steps:
+    - intent: nlu_fallback
+    - action: utter_please_rephrase
+
+- rule: query_product_property
+  steps:
+  - intent: query_product_property
+  - action: action_response_product_property
+
+- rule: query_product_location
+  steps:
+  - intent: query_product_location
+  - action: action_response_product_location
+
+- rule: query_specific_product
+  steps:
+  - intent: query_specific_product
+  - action: action_response_specific_product
+- rule: query_furniture
+  steps:
+  - intent: query_furniture
+  - action: action_response_furniture
+- rule: query_predict
+  steps:
+  - intent: query_predict
+  - action: utter_predict
+- rule: query_environment
+  steps:
+  - intent: query_environment
+  - action: utter_environment
+- rule: query_perishable
+  steps:
+  - intent: query_perishable
+  - action: utter_perishable
+- rule: query_nonperishable
+  steps:
+  - intent: query_nonperishable
+  - action: utter_nonperishable
+- rule: query_current_action
+  steps:
+  - intent: query_current_action
+  - action: action_current_action
+- rule: query_current_task
+  steps:
+  - intent: query_current_task
+  - action: action_current_task
+- rule: query_previous_task
+  steps:
+  - intent: query_previous_task
+  - action: action_previous_task
+- rule: query_specific_task
+  steps:
+  - intent: query_specific_task
+  - action: action_response_specific_task

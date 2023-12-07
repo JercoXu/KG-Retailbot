@@ -1,0 +1,165 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- chatbot_capability
+- goodbye
+- greet
+- introduce_chatbot
+- nlu_fallback
+- query_current_action
+- query_current_task
+- query_environment
+- query_furniture:
+    use_entities: []
+- query_nonperishable
+- query_perishable
+- query_predict
+- query_previous_action:
+    use_entities: []
+- query_previous_task:
+    use_entities: []
+- query_product:
+    use_entities: []
+- query_product_location:
+    use_entities: []
+- query_product_property:
+    use_entities: []
+- query_specific_action:
+    use_entities: []
+- query_specific_product:
+    use_entities: []
+- query_specific_task:
+    use_entities: []
+- thank
+entities:
+- object
+- object_type
+- mention
+- attribute
+- task
+- subtask
+- property
+- furniture
+slots:
+  task:
+    type: text
+    influence_conversation: true
+  subtask:
+    type: text
+    influence_conversation: true
+  object_type:
+    type: text
+    influence_conversation: true
+  object:
+    type: text
+    influence_conversation: true
+  furniture:
+    type: text
+    influence_conversation: true
+  mention:
+    type: text
+    influence_conversation: true
+  attribute:
+    type: text
+    influence_conversation: true
+  property:
+    type: text
+    influence_conversation: true
+  knowledge_base_last_object:
+    type: text
+    influence_conversation: true
+  knowledge_base_last_object_type:
+    type: text
+    influence_conversation: true
+  knowledge_base_listed_objects:
+    type: text
+    influence_conversation: true
+  knowledge_base_objects:
+    type: text
+    influence_conversation: true
+responses:
+  utter_greet:
+  - text: Hey!
+  - text: Hello!
+  - text: Nice to meet you!
+  utter_chatbot_information:
+  - image: https://i.imgur.com/e5aKTTY.png
+    text: 👋 My name is Iris, a chatbot assistant for you to understand the robotic retail environment in AIRLab Delft!
+  utter_chatbot_capability:
+  - buttons:
+    - payload: /query_product
+      title: environment information (products & properties)
+    - payload: /query_current_action
+      title: execution information (tasks & actions)
+    text: 'You can ask me the following things (e.g, what products in the environment?):'
+  utter_environment:
+  - text: The AI for Retail (AIR) Lab Delft is a joint TUDelft-Ahold Delhaize industry lab 👨‍👩‍💻. Iris mimics a retail environment 🛒 including two shelves(Shelf1/Shelf2), tables(Table1/Table2) and various products.
+  utter_thank:
+  - text: You are welcome, 😉!
+  - text: I'm glad to help you 😃!
+  - text: Try my best 🤔
+  utter_goodbye:
+  - text: Good bye 👋!
+  - text: See you 👋!
+  - text: Bye 👋!
+  utter_please_rephrase:
+  - text: |-
+      😥 Sorry, my lazy developer didn't equip me this knowledge 🤦. You can ask me questions relevant to the following intent: 
+       1. products in environment 
+       2. property types of products 
+       3. properties of a specific product 
+       4. products in tables/shelves 
+       5. the current/previous tasks 
+       6. a specific task/action
+  - text: |-
+      😣 I didn't quite understand that. I will improve in the future. You can ask me questions relevant to the following intentions: 
+       1. products in environment 
+       2. property types of products 
+       3. properties of a specific product 
+       4. products in tables/shelves 
+       5. the current/previous tasks 
+       6. a specific task/action
+  - text: |-
+      😟 I didn't get your point. Please be patient with Iris! You can ask me questions relevant to the following intentions: 
+       1. products in environment 
+       2. property types of products 
+       3. properties of a specific product 
+       4. products in tables/shelves 
+       5. the current/previous tasks 
+       6. a specific task/action
+  utter_default:
+  - text: 😥 I'm sorry, I didn't quite understand that. Could you rephrase?
+  - text: 😣 I didn't quite understand that. I will improve in the future.
+  - text: 😟 I didn't get your point. Please be patient with Iris!
+  utter_perishable:
+  - text: 'The perishable products in the environment are: yogurt 🍶, milk 🥛 and ice_scream 🍦.'
+  - text: 'Those products are easy to decay: yogurt 🍶, milk 🥛 and ice_scream 🍦.'
+  utter_nonperishable:
+  - text: 'The nonperishable products in the environment are: juice 🍹, hageslag 🍫 and tea_box 🍵.'
+  - text: 'Those products are not easy to decay: juice 🍹, hageslag 🍫 and tea_box 🍵.'
+  utter_predict:
+  - text: 😥 I can't predict the following actions since plans are generated based on the observing the current environment.
+  - text: Sorry, I can not predict the following actions unless Corrado will change the mechanism of decision making agent in the future.
+actions:
+- action_response_query
+- action_response_specific_product
+- action_response_product_location
+- action_response_product_property
+- action_current_action
+- action_current_task
+- action_response_furniture
+- action_previous_task
+- action_response_specific_task
+- utter_greet
+- utter_chatbot_information
+- utter_chatbot_capability
+- utter_predict
+- utter_thank
+- utter_goodbye
+- utter_please_rephrase
+- utter_default
+- utter_perishable
+- utter_nonperishable
+- utter_environment
